@@ -1,6 +1,6 @@
 # <center> PARCH AND POSEY SQL ANALYSIS </center>
 
-<p align="center"> <img src="erd_diagrams_parch_and_posey.png" width=100% > </p>
+<p align="center"> <img src="erd_diagrams_parch_and_posey.png" width=50% > </p>
 
 #### Parch and Posey is a fictional paper-selling company, which has 50 sales representatives across four regions in the United States. They sell 3 types of paper: standard, glossy and poster. The clients were attracted by advertinsing on Google, Facebook and Twitter. 
 #### This database contains following tables:
