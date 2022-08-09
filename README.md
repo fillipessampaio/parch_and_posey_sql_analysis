@@ -11,7 +11,7 @@
 * **web_events:** all web event data for Parch and Posey's accounts
 #### Now, we'll explore a postgres database using SQL, bearing in mind the schema above, in order to answer business questions.
 
-### -- Providing all web events associated with Walmart account.
+### Q1. Providing all web events associated with Walmart account.
 ```
 SELECT name, channel, occurred_at
 FROM web_events
@@ -20,4 +20,4 @@ ON web_events.account_id = accounts.id
 WHERE name = 'Walmart'
 ORDER BY occurred_at
 ```
-
+<p align="left"> <img src="Q1.png" width=100% > </p>
