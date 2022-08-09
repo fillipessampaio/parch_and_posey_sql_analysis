@@ -20,4 +20,4 @@ ON web_events.account_id = accounts.id
 WHERE name = 'Walmart'
 ORDER BY occurred_at
 ```
-<p align="left"> <img src="Q1.png" width=100% > </p>
+<p align="left"> <img src="charts/Q1.png" width=50% > </p>
