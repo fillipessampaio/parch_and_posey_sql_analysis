@@ -21,3 +21,14 @@ WHERE name = 'Walmart'
 ORDER BY occurred_at
 ```
 <p align="left"> <img src="charts/Q1.png" width=50% > </p>
+
+### Q2. Providing the region for each sales_rep along with their associated accounts.
+```
+SELECT accounts.name, sales_reps.name, region.name
+FROM sales_reps
+LEFT JOIN accounts
+ON sales_reps.id = accounts.sales_rep_id
+LEFT JOIN region
+ON sales_reps.region_id = region.id
+```
+<p align="left"> <img src="charts/Q2.png" width=100% > </p>
